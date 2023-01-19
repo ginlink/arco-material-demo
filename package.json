@@ -1,7 +1,7 @@
 {
-  "name": "test-ui",
+  "name": "arco-material-demo",
   "version": "0.1.0",
-  "description": "test-ui",
+  "description": "arco-material-demo",
   "keywords": [
     "vue",
     "arco-design"
@@ -29,8 +29,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
@@ -93,7 +92,7 @@
   },
   "arcoMeta": {
     "type": "vue-library",
-    "title": "test-ui",
+    "title": "arco-material-demo",
     "category": [
       "数据展示",
       "表单"
